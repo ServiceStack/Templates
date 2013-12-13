@@ -9,15 +9,15 @@ namespace HttpListener.RootPath
 {
     class Program
     {
-        private const string ListeningOn = "http://*:7338/";
+        private const string ListeningOn = "http://*:7337/";
 
         static void Main(string[] args)
         {
             new AppHost()
                 .Init()
-                .Start("http://*:7337/");
+                .Start(ListeningOn);
 
-            Process.Start(ListeningOn.Replace("*", "locahost"));
+            Process.Start(ListeningOn.Replace("*", "127.0.0.1"));
             Console.WriteLine("Press Enter to Stop...");
             Console.ReadLine();
         }
