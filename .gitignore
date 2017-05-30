@@ -156,19 +156,4 @@ typings
 
 # IDEA
 .idea/
-# TS Output
-/lib/src
-/lib/tests/
-/lib/*.js
-/lib/*.js.map
-/lib/isomorphic-fetch.d.ts
-!/lib/index.d.ts
 
-# Built JS files
-src/**/*.js
-src/**/*.map
-tests/**/*.js
-tests/**/*.map
-*.tgz
-tests/client.spec.d.ts
-tests/dtos/techstacks.dtos.d.ts
