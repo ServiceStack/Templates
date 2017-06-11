@@ -1,9 +1,9 @@
 ﻿using System;
 using NUnit.Framework;
-using AspNetEmpty.ServiceInterface;
-using AspNetEmpty.ServiceModel;
-using ServiceStack.Testing;
 using ServiceStack;
+using ServiceStack.Testing;
+using AspNetEmpty.ServiceModel;
+using AspNetEmpty.ServiceInterface;
 
 namespace AspNetEmpty.Tests
 {
@@ -24,14 +24,14 @@ namespace AspNetEmpty.Tests
             .Init();
         }
 
-        [TestFixtureTearDown]
+        [OneTimeTearDown]
         public void TestFixtureTearDown()
         {
             appHost.Dispose();
         }
 
         [Test]
-        public void TestMethod1()
+        public void Test_Method1()
         {
             var service = appHost.Container.Resolve<MyServices>();
 
