@@ -25,7 +25,7 @@ class App extends React.Component<any, any> {
                     <div className="container">
                         <Link to="/" className="navbar-brand"> 
                             <i className="fa fa-code" aria-hidden="true"></i>
-                            <span style={{ paddingLeft: 5 }}>React App!</span>
+                            <span style={{ paddingLeft: 5 }}>React App</span>
                         </Link>
                         <div className="collapse navbar-collapse">
                             <ul className="navbar-nav mr-auto">
