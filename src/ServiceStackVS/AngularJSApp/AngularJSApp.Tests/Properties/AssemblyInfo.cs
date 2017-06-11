@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AngularJSApp1.ServiceInterface")]
+[assembly: AssemblyTitle("AngularJSApp.Tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("AngularJSApp1.ServiceInterface")]
+[assembly: AssemblyProduct("AngularJSApp.Tests")]
 [assembly: AssemblyCopyright("Copyright © 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("21b8df7c-454e-49dd-94ea-b915ff3d5b09")]
+[assembly: Guid("cee38840-f08a-4cd7-a7c4-8d57b8546000")]
 
 // Version information for an assembly consists of the following four values:
 //

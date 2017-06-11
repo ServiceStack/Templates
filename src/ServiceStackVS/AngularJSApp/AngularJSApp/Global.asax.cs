@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
 
-namespace AngularJSApp1
+namespace AngularJSApp
 {
     public class Global : System.Web.HttpApplication
     {

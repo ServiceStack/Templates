@@ -6,12 +6,12 @@ using System.Net;
 using System.Reflection;
 using System.Web;
 using Funq;
-using AngularJSApp1.ServiceInterface;
+using AngularJSApp.ServiceInterface;
 using ServiceStack;
 using ServiceStack.Configuration;
 using ServiceStack.Razor;
 
-namespace AngularJSApp1
+namespace AngularJSApp
 {
     public class AppHost : AppHostBase
     {
@@ -19,7 +19,7 @@ namespace AngularJSApp1
         /// Base constructor requires a Name and Assembly where web service implementation is located
         /// </summary>
         public AppHost()
-            : base("AngularJSApp1", typeof(MyServices).Assembly)
+            : base("AngularJSApp", typeof(MyServices).Assembly)
         {
             var customSettings = new FileInfo(@"~/appsettings.txt".MapHostAbsolutePath());
             AppSettings = customSettings.Exists

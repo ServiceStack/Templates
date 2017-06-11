@@ -7,8 +7,8 @@
     <ProjectGuid>{08BEF328-AB7D-48D3-800D-48ACC75C7914}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AngularJSApp1.ServiceModel</RootNamespace>
-    <AssemblyName>AngularJSApp1.ServiceModel</AssemblyName>
+    <RootNamespace>AngularJSApp.ServiceModel</RootNamespace>
+    <AssemblyName>AngularJSApp.ServiceModel</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\</SolutionDir>

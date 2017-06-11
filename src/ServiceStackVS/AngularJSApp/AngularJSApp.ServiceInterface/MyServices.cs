@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using ServiceStack;
-using AngularJSApp1.ServiceModel;
+using AngularJSApp.ServiceModel;
 
-namespace AngularJSApp1.ServiceInterface
+namespace AngularJSApp.ServiceInterface
 {
     public class MyServices : Service
     {

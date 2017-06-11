@@ -2,10 +2,10 @@
 using NUnit.Framework;
 using ServiceStack;
 using ServiceStack.Testing;
-using AngularJSApp1.ServiceModel;
-using AngularJSApp1.ServiceInterface;
+using AngularJSApp.ServiceModel;
+using AngularJSApp.ServiceInterface;
 
-namespace AngularJSApp1.Tests
+namespace AngularJSApp.Tests
 {
     [TestFixture]
     public class UnitTests

@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AngularJSApp1</RootNamespace>
-    <AssemblyName>AngularJSApp1</AssemblyName>
+    <RootNamespace>AngularJSApp</RootNamespace>
+    <AssemblyName>AngularJSApp</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -152,13 +152,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AngularJSApp1.ServiceInterface\AngularJSApp1.ServiceInterface.csproj">
+    <ProjectReference Include="..\AngularJSApp.ServiceInterface\AngularJSApp.ServiceInterface.csproj">
       <Project>{582dfb0f-f84d-4e43-9bca-2a5a86600b7a}</Project>
-      <Name>AngularJSApp1.ServiceInterface</Name>
+      <Name>AngularJSApp.ServiceInterface</Name>
     </ProjectReference>
-    <ProjectReference Include="..\AngularJSApp1.ServiceModel\AngularJSApp1.ServiceModel.csproj">
+    <ProjectReference Include="..\AngularJSApp.ServiceModel\AngularJSApp.ServiceModel.csproj">
       <Project>{08bef328-ab7d-48d3-800d-48acc75c7914}</Project>
-      <Name>AngularJSApp1.ServiceModel</Name>
+      <Name>AngularJSApp.ServiceModel</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -187,9 +187,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>50989</DevelopmentServerPort>
+          <DevelopmentServerPort>55314</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:50989/</IISUrl>
+          <IISUrl>http://localhost:55314/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

@@ -35,7 +35,7 @@
                 fs.mkdirSync(configDir);
             }
             fs.writeFileSync(configPath, JSON.stringify({
-                "iisApp": "AngularJSApp1",
+                "iisApp": "AngularJSApp",
                 "serverAddress": "deploy-server.example.com",
                 "userName": "{WebDeployUserName}",
                 "password": "{WebDeployPassword}"
@@ -133,7 +133,7 @@
             .pipe(gulp.dest(webRoot));
     });
     gulp.task('www-msbuild', function () {
-        return gulp.src('../../AngularJSApp1.sln')
+        return gulp.src('../../AngularJSApp.sln')
             .pipe(nugetRestore())
             .pipe(msbuild({
                 targets: ['Clean', 'Build'],

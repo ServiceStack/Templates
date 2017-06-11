@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using ServiceStack;
 
-namespace AngularJSApp1.ServiceModel
+namespace AngularJSApp.ServiceModel
 {
     [Route("/hello/{Name}")]
     public class Hello : IReturn<HelloResponse>

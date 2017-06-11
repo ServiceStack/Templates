@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJSApp1", "AngularJSApp1\AngularJSApp1\AngularJSApp1.csproj", "{6F86FC59-9DE7-4BF5-8D11-CB7E99DA29FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJSApp", "AngularJSApp\AngularJSApp\AngularJSApp.csproj", "{6F86FC59-9DE7-4BF5-8D11-CB7E99DA29FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJSApp1.ServiceModel", "AngularJSApp1\AngularJSApp1.ServiceModel\AngularJSApp1.ServiceModel.csproj", "{08BEF328-AB7D-48D3-800D-48ACC75C7914}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJSApp.ServiceModel", "AngularJSApp\AngularJSApp.ServiceModel\AngularJSApp.ServiceModel.csproj", "{08BEF328-AB7D-48D3-800D-48ACC75C7914}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJSApp1.ServiceInterface", "AngularJSApp1\AngularJSApp1.ServiceInterface\AngularJSApp1.ServiceInterface.csproj", "{582DFB0F-F84D-4E43-9BCA-2A5A86600B7A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJSApp.ServiceInterface", "AngularJSApp\AngularJSApp.ServiceInterface\AngularJSApp.ServiceInterface.csproj", "{582DFB0F-F84D-4E43-9BCA-2A5A86600B7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJSApp1.Tests", "AngularJSApp1\AngularJSApp1.Tests\AngularJSApp1.Tests.csproj", "{B1665387-EF91-4CA0-82BB-66E5781ED800}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJSApp.Tests", "AngularJSApp\AngularJSApp.Tests\AngularJSApp.Tests.csproj", "{B1665387-EF91-4CA0-82BB-66E5781ED800}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

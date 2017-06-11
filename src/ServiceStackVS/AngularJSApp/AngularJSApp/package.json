@@ -1,7 +1,7 @@
 {
-    "name": "AngularJSApp1",
+    "name": "AngularJSApp",
     "version": "0.0.1",
-    "description": "AngularJSApp1",
+    "description": "AngularJSApp",
     "main": "tests/karma.conf.js",
     "author": "",
     "private": true,
